@@ -3,6 +3,8 @@
 
 Olá! Este repositório faz parte do projeto da disciplina de Requisitos de Software da UTFPR - Campus Cornélio Procópio. 
 
+Link do Padlet:
+
 ## 1. Introdução
 
 ***1.1.  Nome do Grupo***
@@ -27,19 +29,65 @@ Este documento se destina aos arquitetos de software, engenheiros de software, t
 
 *<Descrever quais os usuários finais do sistema (quem vai utilizar o sistema). Neste espaço vocês vão traçar um perfil de usuário, bem como as personas e análide de tarefas>*
 
+***Personas:***
+
+***Análise da situação atual: antes da introdução de sua solução***
+
+O que as pessoas fazem?
+
+Quais os artefatos envolvidos?
+
+O que elas precisam saber?
+
+***Análise das tarefas depois: como serão executadas as suas tarefas com sua solução:***
+
+O que as pessoas fazem?
+
+Quais os artefatos envolvidos?
+
+O que elas precisam saber?
+
+***Cenário: Antes***
+
+***Cenário: Depois***
+
 ## 2. Documentos gerais no repositório
 
-***2.1. Requisitos de usuário***
+***2.1. Requisitos Funcionais***
 
-*<Link para a pasta com os requisitos de usuário.>*
+*<Link, imagem, arquivo com os requisitos funcionais.>*
 
-***2.2. Requisitos de sistema***
+***2.2. Requisitos Não Funcionais***
 
-*<Link para a pasta de requisitos de sistema .>*
+*<Link, imagem, arquivo com os requisitos não funcionais.>*
 
-***2.3. Protótipos***
+***2.3. Perguntas***
 
-*<Link para a pasta com os protótipos.>*
+*<Arquivo com as perguntas realizadas na entrevista .>*
+
+***2.4. Entrevista***
+
+*<Arquivo com as respostas do indivíduo intrevistado e link do drive com upload da gravação.>*
+
+***2.5. Histórias do Usuário***
+
+*<Imagem, arquivo (PDF), link com as Histórias de Usuário.>*
+
+***2.6. Diagramas de Caso de Uso e Especificações***
+
+*<Imagem, arquivo (PDF), link com Diagrama de Caso de Uso.>*
+
+***2.7. Diagramas de Atividades***
+
+*<Imagem, arquivo (PDF), link com Diagrama de Atividades.>*
+
+***2.8. Matrizes de Rastreabilidade***
+
+*<Imagem, arquivo (PDF), link com Matriz de Rastreabilidade.>*
+
+***2.9. Protótipos***
+
+*<Imagem, arquivo (PDF), link com Protótipo.>*
 
 ## Referências
 

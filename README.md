@@ -46,9 +46,11 @@ Este documento se destina aos arquitetos de software, engenheiros de software, t
 *`3. O que elas precisam saber?`*
 
 ***Cenário: Antes***
+
 *<Preencher com o cenário idealizado antes da aplicação do seu sistema.>*
 
 ***Cenário: Depois***
+
 *<Preencher com o cenário idealizado depois da aplicação do seu sistema.>*
 
 ## 2. Documentos gerais no repositório

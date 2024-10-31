@@ -69,7 +69,7 @@ Este documento se destina aos arquitetos de software, engenheiros de software, t
 
 ***2.4. Entrevista***
 
-*<Arquivo com as respostas do indivíduo intrevistado e link do drive com upload da gravação.>*
+*<Arquivo com as respostas do indivíduo entrevistado e link do drive com upload da gravação.>*
 
 ***2.5. Histórias do Usuário***
 

@@ -31,25 +31,25 @@ Este documento se destina aos arquitetos de software, engenheiros de software, t
 
 ***Personas:***
 
+*<Imagem, arquivo (PDF), link com as Personas.>*
+
 ***Análise da situação atual: antes da introdução de sua solução***
 
-O que as pessoas fazem?
-
-Quais os artefatos envolvidos?
-
-O que elas precisam saber?
+*`1. O que as pessoas fazem?`*
+*`2. Quais os artefatos envolvidos?`*
+*`3. O que elas precisam saber?`*
 
 ***Análise das tarefas depois: como serão executadas as suas tarefas com sua solução:***
 
-O que as pessoas fazem?
-
-Quais os artefatos envolvidos?
-
-O que elas precisam saber?
+*`1. O que as pessoas fazem?`*
+*`2. Quais os artefatos envolvidos?`*
+*`3. O que elas precisam saber?`*
 
 ***Cenário: Antes***
+*<Preencher com o cenário idealizado antes da aplicação do seu sistema.>*
 
 ***Cenário: Depois***
+*<Preencher com o cenário idealizado depois da aplicação do seu sistema.>*
 
 ## 2. Documentos gerais no repositório
 

@@ -13,7 +13,7 @@ João Lucas Silva de Souza           | [JoaoLucas-Silva](https://github.com/Joao
 João Vitor Oliveira Abreu           | [jvoabreu](https://github.com/jvoabreu)
 José Wynder Alves Hernandes         | [JoseWynder](https://github.com/JoseWynder)
 Jean Alves Rocha                    | [JeanAlvesR](https://github.com/JeanAlvesR)
-Luan Henrique de Almeida dos Santos | @NadiaYuzawa
+Luan Henrique de Almeida dos Santos | [luanalmeida7](https://github.com/luanalmeida7)
 ----------------------------------------------------------------------------
 
 
@@ -26,7 +26,7 @@ Luan Henrique de Almeida dos Santos | @NadiaYuzawa
 
 Este documento apresenta os requisitos dos usuários a serem desenvolvidos pela *`Entre Linhas`*, fornecendo aos desenvolvedores as informações necessárias para o projeto e implementação, assim como para a realização dos testes e homologação do sistema.
 
-O objetivo do sistema `Entre Linhas` é .... *<Descrever aqui o objetivo do sistema que será desenvolvido, principais características, benefícios, problemas que o sistema ajudará a resolver, o comportamento principal do sistema, etc.>*
+O objetivo do sistema `Entre Linhas` é ajudar costureiras que trabalham na modalidade de facção, facilitando o contato entre quem obtém uma facção, entre as faccionistas, e a empresa que busca por esse serviço de costura. O sistema tem como característica principal a simplicidade e facilidade para quem o necessita, esse é o principal diferencial.
 
 ***1.2.  Público Alvo***
 
@@ -41,16 +41,11 @@ Este documento se destina aos arquitetos de software, engenheiros de software, t
 *<Imagem, arquivo (PDF), link com as Personas.>*
 
 ***Análise da situação atual: antes da introdução de sua solução***
-
-*`1. O que as pessoas fazem?`*
-*`2. Quais os artefatos envolvidos?`*
-*`3. O que elas precisam saber?`*
+As pessoas normalmente trabalham via WhatsApp, sem a praticidade e facilidade de encontrar os serviços, dependendo de quem elas conhecem e vice-versa. Os artefatos em específico não teria algum, seria basicamente o WhatsApp. E o que elas precisam saber é onde achar as respectivas faccionistas, facções e clientes e, o seu tipo de serviço.
 
 ***Análise das tarefas depois: como serão executadas as suas tarefas com sua solução:***
 
-*`1. O que as pessoas fazem?`*
-*`2. Quais os artefatos envolvidos?`*
-*`3. O que elas precisam saber?`*
+Buscam com simplicidade a sua especificação de serviço ou mesmo algúem para prestar esse serviço. Os artefatos envolvidos é: o app por si só e todas suas funcionalidades. Para o uso do mesmo é necessário somente de um básico onhecimento no uso do telefone celular
 
 ***Cenário: Antes***
 

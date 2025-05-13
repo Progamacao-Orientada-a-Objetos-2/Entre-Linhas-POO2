@@ -41,7 +41,8 @@ Este documento se destina aos arquitetos de software, engenheiros de software, t
 *<Imagem, arquivo (PDF), link com as Personas.>*
 
 ***Análise da situação atual: antes da introdução de sua solução***
-As pessoas normalmente trabalham via WhatsApp, sem a praticidade e facilidade de encontrar os serviços, dependendo de quem elas conhecem e vice-versa. Os artefatos em específico não teria algum, seria basicamente o WhatsApp. E o que elas precisam saber é onde achar as respectivas faccionistas, facções e clientes e, o seu tipo de serviço.
+
+As pessoas normalmente trabalham via WhatsApp, sem a praticidade e facilidade de encontrar os serviços, dependendo de quem elas conhecem e vice-versa. Os artefatos em específico não teria algum, seria basicamente o WhatsApp. E o que elas precisam saber é onde achar as respectivas faccionistas, facções, clientes e, o seu tipo de serviço.
 
 ***Análise das tarefas depois: como serão executadas as suas tarefas com sua solução:***
 

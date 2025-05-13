@@ -60,11 +60,39 @@ Buscam com simplicidade a sua especificação de serviço ou mesmo algúem para 
 
 ***2.1. Requisitos Funcionais***
 
-*<Link, imagem, arquivo com os requisitos funcionais.>*
+## 🧾 Requisitos Funcionais e Prioridades
+
+| Código | Requisito | Prioridade |
+|--------|-----------|------------|
+| RF01 | Cadastro de Empresa/Cliente - O sistema deve permitir o cadastro de empresas, exigindo nome da empresa, CNPJ, e-mail, telefone e endereço. | 🔴 **Alta** |
+| RF02 | Cadastro de Facção - O sistema deve permitir o cadastro de facções, exigindo CNPJ, nome do responsável, endereço e cidade, com a possibilidade de atualizações futuras. | 🔴 **Alta** |
+| RF03 | Cadastro de Faccionista - O sistema deve permitir o cadastro de faccionistas, com a informação sobre a existência de uma facção vinculada ou atuação de forma autônoma. | 🔴 **Alta** |
+| RF04 | Cadastro de Serviços - O sistema deve permitir o cadastro de serviços, exigindo tipo de serviço, descrição e prazo para conclusão. | 🔴 **Alta** |
+| RF05 | Visualização de Facções - O sistema deve permitir a visualização das facções cadastradas, exibindo o tipo de serviço, a quantidade de serviços realizados, a nota média e a quantidade de avaliações recebidas. | 🟡 **Média** |
+| RF06 | Avaliação e Feedback - O sistema deve permitir que o cliente avalie o serviço após a entrega, considerando qualidade, cumprimento de prazo e atendimento, utilizando uma escala de 1 a 5. | 🟡 **Média** |
+| RF07 | Notificações e Alertas - O sistema deve enviar notificações para facções sempre que atenderem aos requisitos de um serviço, e para faccionistas autônomos sempre que uma facção precisar de seus serviços. | 🟢 **Baixa** |
+| RF08 | Chat para Contrato de Serviços - O sistema deve disponibilizar um chat para comunicação entre empresa e facção após a aceitação da solicitação, exibido na área de serviços da empresa. | 🟡 **Média** |
+| RF09 | Prazos e Entregas - O sistema deve permitir o registro das datas de entrega e atualizar o status do serviço conforme a facção declarar entrega parcial ou total, notificando a empresa quando o serviço for concluído. | 🔴 **Alta** |
+| RF10 | Histórico de Serviços - O sistema deve manter um histórico dos serviços realizados por cada usuário, acessível pelas empresas, facções e faccionistas em suas respectivas áreas logadas, contendo tipo de serviço, data de entrega, nome da outra parte envolvida e avaliação. | 🟡 **Média** |
+
 
 ***2.2. Requisitos Não Funcionais***
 
-*<Link, imagem, arquivo com os requisitos não funcionais.>*
+## ⚙️ Requisitos Não Funcionais e Prioridades
+
+| Código | Requisito | Prioridade |
+|--------|-----------|------------|
+| RNF01 | Desempenho - O sistema deve ser capaz de suportar até 2.000 usuários simultâneos sem perda de desempenho, com ações que não demorem mais que 3 segundos. | 🔴 **Alta** |
+| RNF02 | Usabilidade - A interface do sistema deve ser simples e fácil de usar, mesmo para usuários com pouco conhecimento em tecnologia, e o sistema deve ser otimizado para smartphones e tablets. | 🔴 **Alta** |
+| RNF03 | Segurança - Os dados dos usuários devem ser protegidos por criptografia, e a autenticação deve exigir senhas fortes, com a opção de autenticação em duas etapas. | 🔴 **Alta** |
+| RNF04 | Backup e Recuperação - O sistema deve realizar backups automáticos diariamente e permitir a recuperação de dados excluídos acidentalmente até 7 dias após a exclusão. | 🟡 **Média** |
+| RNF05 | Disponibilidade - O sistema deve estar disponível constantemente, exceto durante manutenções programadas, e funcionar de forma eficaz em áreas com conexões de internet lentas. | 🔴 **Alta** |
+| RNF06 | Compatibilidade - O sistema deve ser compatível com os navegadores mais populares e com dispositivos Android e iOS, proporcionando uma boa experiência de usuário. | 🟡 **Média** |
+| RNF07 | Localização e Idioma - O sistema deve estar disponível em português e permitir a adição de outros idiomas, caso necessário. A data e hora devem ser exibidas de acordo com a localidade do usuário. | 🟢 **Baixa** |
+| RNF08 | Manutenção e Suporte - O sistema deve ser de fácil manutenção e atualização, e deve fornecer suporte técnico com resposta garantida em até 24 horas. | 🟡 **Média** |
+| RNF09 | Conformidade - O sistema deve estar em conformidade com a Lei Geral de Proteção de Dados (LGPD) e ser acessível a pessoas com deficiência. | 🔴 **Alta** |
+| RNF10 | Atualizações - O sistema deve permitir atualizações contínuas sem interrupções, garantindo que melhorias sejam feitas sem afetar a experiência do usuário. | 🟡 **Média** |
+
 
 ***2.3. Perguntas***
 

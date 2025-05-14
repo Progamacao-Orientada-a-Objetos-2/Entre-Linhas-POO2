@@ -60,20 +60,23 @@ Buscam com simplicidade a sua especificação de serviço ou mesmo alguém para 
 
 ***2.1. Requisitos Funcionais***
 
-## 🧾 Requisitos Funcionais e Prioridades
+## 🧾 Requisitos Funcionais
 
-| Código | Requisito | Prioridade |
-|--------|-----------|------------|
-| RF01 | Cadastro de Empresa/Cliente - O sistema deve permitir o cadastro de empresas, exigindo nome da empresa, CNPJ, e-mail, telefone e endereço. | 🔴 **Alta** |
-| RF02 | Cadastro de Facção - O sistema deve permitir o cadastro de facções, exigindo CNPJ, nome do responsável, endereço e cidade, com a possibilidade de atualizações futuras. | 🔴 **Alta** |
-| RF03 | Cadastro de Faccionista - O sistema deve permitir o cadastro de faccionistas, com a informação sobre a existência de uma facção vinculada ou atuação de forma autônoma. | 🔴 **Alta** |
-| RF04 | Cadastro de Serviços - O sistema deve permitir o cadastro de serviços, exigindo tipo de serviço, descrição e prazo para conclusão. | 🔴 **Alta** |
-| RF05 | Visualização de Facções - O sistema deve permitir a visualização das facções cadastradas, exibindo o tipo de serviço, a quantidade de serviços realizados, a nota média e a quantidade de avaliações recebidas. | 🟡 **Média** |
-| RF06 | Avaliação e Feedback - O sistema deve permitir que o cliente avalie o serviço após a entrega, considerando qualidade, cumprimento de prazo e atendimento, utilizando uma escala de 1 a 5. | 🟡 **Média** |
-| RF07 | Notificações e Alertas - O sistema deve enviar notificações para facções sempre que atenderem aos requisitos de um serviço, e para faccionistas autônomos sempre que uma facção precisar de seus serviços. | 🟢 **Baixa** |
-| RF08 | Chat para Contrato de Serviços - O sistema deve disponibilizar um chat para comunicação entre empresa e facção após a aceitação da solicitação, exibido na área de serviços da empresa. | 🟡 **Média** |
-| RF09 | Prazos e Entregas - O sistema deve permitir o registro das datas de entrega e atualizar o status do serviço conforme a facção declarar entrega parcial ou total, notificando a empresa quando o serviço for concluído. | 🔴 **Alta** |
-| RF10 | Histórico de Serviços - O sistema deve manter um histórico dos serviços realizados por cada usuário, acessível pelas empresas, facções e faccionistas em suas respectivas áreas logadas, contendo tipo de serviço, data de entrega, nome da outra parte envolvida e avaliação. | 🟡 **Média** |
+| Identificador | Descrição | Dependência |
+|---------------|-----------|-------------|
+| RF01 | Cadastro de Empresa - O sistema deve permitir o cadastro de empresas, exigindo nome da empresa, CNPJ, e-mail, telefone, endereço e senha de acesso. ||
+| RF02 | Cadastro de Facção - O sistema deve permitir o cadastro de facções, exigindo nome da facção, nome do responsável, CNPJ, e-mail, telefone, endereço, tipo de serviço oferecido e senha de acesso. ||
+| RF03 | Cadastro de Faccionista - O sistema deve permitir o cadastro de faccionistas, exigindo nome completo, e-mail, telefone, endereço, principal serviço oferecido e senha de acesso. Com a opção de escolha entre se vincular a uma facção ou atuar de forma autônoma. ||
+| RF04 | Cadastro de Serviços - O sistema deve permitir o cadastro de serviços, exigindo tipo de serviço, descrição e prazo para conclusão. ||
+| RF05 | Solicitação de Serviço - O sistema deve permitir que uma empresa envie uma solicitação de serviço para uma facção, especificando o tipo de serviço, a descrição, o prazo desejado e os detalhes da demanda. A facção deve poder aceitar ou recusar a solicitação. ||
+| RF06 | Visualização de Facções – O sistema deve permitir a visualização das facções cadastradas, exibindo as informações fornecidas no momento do cadastro, com exceção do CNPJ. Além disso, devem ser apresentadas a quantidade de serviços realizados, a nota média de avaliação, o tempo de permanência na plataforma, o último acesso registrado, a região de atendimento e a disponibilidade atual para novos trabalhos. ||
+| RF07 | Histórico de Serviços - O sistema deve manter um histórico de todos os serviços realizados, acessível para a facção, faccionista e empresa. Esse histórico deve incluir o nome do serviço, as datas de início e conclusão, e as avaliações recebidas por cada serviço. O histórico deve estar disponível a qualquer momento para consulta. ||
+| RF08 | Chat entre Empresa e Facção - O sistema deve permitir que a empresa e a facção se comuniquem diretamente por meio de um chat integrado, facilitando a troca de informações e negociação de serviços. A comunicação deve ser restrita apenas a esses dois perfis, sem possibilidade de interação direta entre a empresa e faccionista. ||
+| RF09 | Chat entre Facção e Faccionista - O sistema deve permitir que a facção e o faccionista se comuniquem diretamente por meio de um chat integrado, permitindo a troca de informações sobre serviços e demandas. ||
+| RF10 | Avaliação e Feedback - O sistema deve solicitar que, ao final de um serviço, o usuário avalie a outra parte envolvida com base em critérios específicos. A avaliação deve incluir uma nota geral, em uma escala de 1 a 5, considerando qualidade, cumprimento de prazos, comunicação e grau de confiabilidade. ||
+| RF11 | Notificar Empresas - O sistema deve notificar a empresa sempre que uma facção responder a uma proposta ou houver alterações no status de um pedido. Também deve receber notificações sobre avaliações de serviços finalizados e, quando aplicável, recomendações personalizadas de facções com base no histórico de uso da plataforma. ||
+| RF12 | Notificar Facções/Faccionistas – O sistema deve notificar uma facção e faccionista sempre que houver novas solicitações de serviço, mensagens recebidas ou avaliações feitas. Além disso, deve alertar sobre a proximidade de prazos e enviar notificações sempre que houver feedbacks sobre o serviço prestado. ||
+| RF13 | Prazos e Entregas – O sistema deve permitir o registro das datas de entrega e a atualização do status do serviço sempre que a facção declarar a entrega parcial ou total. ||
 
 
 ***2.2. Requisitos Não Funcionais***

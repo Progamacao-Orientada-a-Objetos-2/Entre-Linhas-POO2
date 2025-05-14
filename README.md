@@ -30,7 +30,7 @@ O objetivo do sistema `Entre Linhas` é ajudar costureiras que trabalham na moda
 
 ***1.2.  Público Alvo***
 
-Este documento se destina aos arquitetos de software, engenheiros de software, testadores, clientes, costureiras de qualquer faixa etária e tipo de serviço.
+Este documento se destina aos arquitetos de software, engenheiros de software, testadores, clientes, costureiras de qualquer faixa etária e, qualquer tipo de serviço (que envolva a costura).
 
 ***1.3. Descrição dos usuários***
 

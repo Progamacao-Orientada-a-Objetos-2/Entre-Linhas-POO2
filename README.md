@@ -46,7 +46,7 @@ As pessoas normalmente trabalham via WhatsApp, sem a praticidade e facilidade de
 
 ***Análise das tarefas depois: como serão executadas as suas tarefas com sua solução:***
 
-Buscam com simplicidade a sua especificação de serviço ou mesmo algúem para prestar esse serviço. Os artefatos envolvidos é: o app por si só e todas suas funcionalidades. Para o uso do mesmo é necessário somente de um básico onhecimento no uso do telefone celular
+Buscam com simplicidade a sua especificação de serviço ou mesmo alguém para prestar esse serviço. Os artefatos envolvidos é: o app por si só e todas suas funcionalidades. Para o uso do mesmo é necessário somente de um básico conhecimento no uso do telefone celular
 
 ***Cenário: Antes***
 

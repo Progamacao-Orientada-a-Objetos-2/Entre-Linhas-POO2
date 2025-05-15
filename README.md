@@ -68,33 +68,39 @@ Buscam com simplicidade a sua especificação de serviço ou mesmo alguém para 
 | RF02 | Cadastro de Facção - O sistema deve permitir o cadastro de facções, exigindo nome da facção, nome do responsável, CNPJ, e-mail, telefone, endereço, tipo de serviço oferecido e senha de acesso. ||
 | RF03 | Cadastro de Faccionista - O sistema deve permitir o cadastro de faccionistas, exigindo nome completo, e-mail, telefone, endereço, principal serviço oferecido e senha de acesso. Com a opção de escolha entre se vincular a uma facção ou atuar de forma autônoma. ||
 | RF04 | Cadastro de Serviços - O sistema deve permitir o cadastro de serviços, exigindo tipo de serviço, descrição e prazo para conclusão. ||
-| RF05 | Solicitação de Serviço - O sistema deve permitir que uma empresa envie uma solicitação de serviço para uma facção, especificando o tipo de serviço, a descrição, o prazo desejado e os detalhes da demanda. A facção deve poder aceitar ou recusar a solicitação. ||
-| RF06 | Visualização de Facções – O sistema deve permitir a visualização das facções cadastradas, exibindo as informações fornecidas no momento do cadastro, com exceção do CNPJ. Além disso, devem ser apresentadas a quantidade de serviços realizados, a nota média de avaliação, o tempo de permanência na plataforma, o último acesso registrado, a região de atendimento e a disponibilidade atual para novos trabalhos. ||
-| RF07 | Histórico de Serviços - O sistema deve manter um histórico de todos os serviços realizados, acessível para a facção, faccionista e empresa. Esse histórico deve incluir o nome do serviço, as datas de início e conclusão, e as avaliações recebidas por cada serviço. O histórico deve estar disponível a qualquer momento para consulta. ||
-| RF08 | Chat entre Empresa e Facção - O sistema deve permitir que a empresa e a facção se comuniquem diretamente por meio de um chat integrado, facilitando a troca de informações e negociação de serviços. A comunicação deve ser restrita apenas a esses dois perfis, sem possibilidade de interação direta entre a empresa e faccionista. ||
-| RF09 | Chat entre Facção e Faccionista - O sistema deve permitir que a facção e o faccionista se comuniquem diretamente por meio de um chat integrado, permitindo a troca de informações sobre serviços e demandas. ||
-| RF10 | Avaliação e Feedback - O sistema deve solicitar que, ao final de um serviço, o usuário avalie a outra parte envolvida com base em critérios específicos. A avaliação deve incluir uma nota geral, em uma escala de 1 a 5, considerando qualidade, cumprimento de prazos, comunicação e grau de confiabilidade. ||
-| RF11 | Notificar Empresas - O sistema deve notificar a empresa sempre que uma facção responder a uma proposta ou houver alterações no status de um pedido. Também deve receber notificações sobre avaliações de serviços finalizados e, quando aplicável, recomendações personalizadas de facções com base no histórico de uso da plataforma. ||
-| RF12 | Notificar Facções/Faccionistas – O sistema deve notificar uma facção e faccionista sempre que houver novas solicitações de serviço, mensagens recebidas ou avaliações feitas. Além disso, deve alertar sobre a proximidade de prazos e enviar notificações sempre que houver feedbacks sobre o serviço prestado. ||
-| RF13 | Prazos e Entregas – O sistema deve permitir o registro das datas de entrega e a atualização do status do serviço sempre que a facção declarar a entrega parcial ou total. ||
-
+| RF05 | Busca de Facções – O sistema deve permitir que qualquer usuário da plataforma realize buscas por facções cadastradas, utilizando filtros como região, tipo de serviço, histórico de avaliações e disponibilidade. ||
+| RF06 | Busca de Faccionistas e Empresas (restrita à Facção) – O sistema deve permitir que apenas facções realizem buscas por faccionistas e empresas cadastradas, utilizando filtros como região, tipo de serviço, histórico de avaliações e disponibilidade. ||
+| RF07 | Solicitação de Serviço - O sistema deve permitir que uma empresa envie uma solicitação de serviço para uma facção, especificando o tipo de serviço, a descrição, o prazo desejado e os detalhes da demanda. A facção deve poder aceitar ou recusar a solicitação. ||
+| RF08 | Visualização de Facções – O sistema deve permitir a visualização das facções cadastradas, exibindo informações como a quantidade de serviços realizados, a nota média de avaliação, a data do último acesso, a região de atendimento e a disponibilidade atual para novos trabalhos. ||
+| RF09 | Histórico de Serviços – O sistema deve manter um registro completo de todos os serviços realizados, acessível a qualquer momento por facções, faccionistas e empresas. Esse histórico deve incluir o nome do serviço, as datas de início e conclusão, além das avaliações recebidas. ||
+| RF10 | Chat entre Empresa e Facção - O sistema deve permitir que a empresa e a facção se comuniquem diretamente por meio de um chat integrado, facilitando a troca de informações e negociação de serviços. A comunicação deve ser restrita apenas a esses dois perfis, sem possibilidade de interação direta entre a empresa e faccionista. ||
+| RF11 | Chat entre Facção e Faccionista - O sistema deve permitir que a facção e o faccionista se comuniquem diretamente por meio de um chat integrado, permitindo a troca de informações sobre serviços e demandas. ||
+| RF12 | Avaliação e Feedback - O sistema deve solicitar que, ao final de um serviço, o usuário avalie a outra parte envolvida. A avaliação deve incluir uma nota geral, de 1 a 5, levando em conta a qualidade do serviço, o cumprimento de prazos, comunicação e grau de confiabilidade. ||
+| RF13 | Notificar Empresas – O sistema deve enviar notificações para a empresa sempre que uma facção responder a uma proposta, houver alterações no status de um pedido ou forem registradas novas avaliações. Quando aplicável, também devem ser enviadas recomendações personalizadas de facções com base no histórico de uso da plataforma. ||
+| RF14 | Notificar Facções/Faccionistas – O sistema deve notificar uma facção e faccionista sempre que houver novas solicitações de serviço, mensagens recebidas ou avaliações feitas. Além disso, deve alertar sobre a proximidade de prazos e enviar notificações sempre que houver feedbacks sobre o serviço prestado. ||
+| RF15 | Prazos e Entregas – O sistema deve permitir o registro das datas de entrega e a atualização do status do serviço sempre que a facção declarar a entrega parcial ou total. ||
 
 ***2.2. Requisitos Não Funcionais***
 
-## ⚙️ Requisitos Não Funcionais e Prioridades
+## ⚙️ Requisitos Não Funcionais
 
-| Código | Requisito | Prioridade |
-|--------|-----------|------------|
-| RNF01 | Desempenho - O sistema deve ser capaz de suportar até 2.000 usuários simultâneos sem perda de desempenho, com ações que não demorem mais que 3 segundos. | 🔴 **Alta** |
-| RNF02 | Usabilidade - A interface do sistema deve ser simples e fácil de usar, mesmo para usuários com pouco conhecimento em tecnologia, e o sistema deve ser otimizado para smartphones e tablets. | 🔴 **Alta** |
-| RNF03 | Segurança - Os dados dos usuários devem ser protegidos por criptografia, e a autenticação deve exigir senhas fortes, com a opção de autenticação em duas etapas. | 🔴 **Alta** |
-| RNF04 | Backup e Recuperação - O sistema deve realizar backups automáticos diariamente e permitir a recuperação de dados excluídos acidentalmente até 7 dias após a exclusão. | 🟡 **Média** |
-| RNF05 | Disponibilidade - O sistema deve estar disponível constantemente, exceto durante manutenções programadas, e funcionar de forma eficaz em áreas com conexões de internet lentas. | 🔴 **Alta** |
-| RNF06 | Compatibilidade - O sistema deve ser compatível com os navegadores mais populares e com dispositivos Android e iOS, proporcionando uma boa experiência de usuário. | 🟡 **Média** |
-| RNF07 | Localização e Idioma - O sistema deve estar disponível em português e permitir a adição de outros idiomas, caso necessário. A data e hora devem ser exibidas de acordo com a localidade do usuário. | 🟢 **Baixa** |
-| RNF08 | Manutenção e Suporte - O sistema deve ser de fácil manutenção e atualização, e deve fornecer suporte técnico com resposta garantida em até 24 horas. | 🟡 **Média** |
-| RNF09 | Conformidade - O sistema deve estar em conformidade com a Lei Geral de Proteção de Dados (LGPD) e ser acessível a pessoas com deficiência. | 🔴 **Alta** |
-| RNF10 | Atualizações - O sistema deve permitir atualizações contínuas sem interrupções, garantindo que melhorias sejam feitas sem afetar a experiência do usuário. | 🟡 **Média** |
+| Identificador | Descrição | Dependência |
+|---------------|-----------|-------------|
+| RNF01 | O sistema deve suportar até 2.000 usuários simultâneos, com tempo de resposta de até 3 segundos por ação, mesmo em pico de uso. ||
+| RNF02 | O sistema deve ser escalável, suportando crescimento de usuários e dados sem comprometer o desempenho. ||
+| RNF03 | O sistema deve permitir o preenchimento por comandos de voz em dispositivos móveis compatíveis, especialmente em campos de cadastro e formulários básicos. ||
+| RNF04 | A interface deve ser intuitiva, com design responsivo e usabilidade voltada a usuários com pouca familiaridade com tecnologia. ||
+| RNF05 | O sistema deve garantir acessibilidade total, permitindo navegação completa via teclado, compatibilidade com leitores de tela e uso de marcação semântica adequada. ||
+| RNF06 | As notificações devem ser entregues ao usuário em até 5 segundos após a ocorrência do evento. ||
+| RNF07 | O sistema deve cumprir todas as leis de proteção de dados, como a LGPD, garantindo a privacidade e segurança das informações dos usuários. ||
+| RNF08 | Os dados dos usuários devem ser protegidos por criptografia, com autenticação em dois fatores, controle de acesso restrito e mascaramento de informações sensíveis na interface. ||
+| RNF09 | O sistema deve registrar logs de acesso e ações para garantir auditoria e segurança. ||
+| RNF10 | O sistema deve garantir segurança na autenticação, bloqueando o acesso temporariamente após 5 tentativas falhas consecutivas e expirando a sessão após 30 minutos de inatividade. ||
+| RNF11 | O sistema deve permitir o uso offline para consulta das informações básicas já carregadas. ||
+| RNF12 | O sistema deve realizar backups automáticos diários, com possibilidade de restaurar dados excluídos em até 7 dias. ||
+| RNF13 | O sistema deve manter disponibilidade mínima de 99,5%, exceto durante manutenções programadas. ||
+| RNF14 | O sistema deve ser totalmente restaurado e funcional em até 4 horas após qualquer falha, minimizando o impacto para os usuários e garantindo continuidade dos serviços. ||
+| RNF15 | O sistema deve monitorar continuamente sua performance e segurança, enviando alertas automáticos à equipe técnica em caso de anomalias, falhas ou tentativas suspeitas de acesso. ||
 
 
 ***2.3. Perguntas***

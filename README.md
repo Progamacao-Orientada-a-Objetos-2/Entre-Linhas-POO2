@@ -107,7 +107,7 @@ Buscam com simplicidade a sua especificação de serviço ou mesmo alguém para 
 
 ***2.3. Perguntas***
 
-*<Arquivo com as perguntas realizadas na entrevista .>*
+[Perguntas.pdf](https://github.com/user-attachments/files/20257828/Perguntas.pdf)
 
 ***2.4. Entrevista***
 

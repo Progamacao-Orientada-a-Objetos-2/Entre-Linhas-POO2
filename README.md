@@ -38,7 +38,8 @@ Este documento se destina aos arquitetos de software, engenheiros de software, t
 
 ***Personas:***
 
-*<Imagem, arquivo (PDF), link com as Personas.>*
+[Personas.zip](https://github.com/user-attachments/files/20257902/Personas.zip)
+
 
 ***Análise da situação atual: antes da introdução de sua solução***
 

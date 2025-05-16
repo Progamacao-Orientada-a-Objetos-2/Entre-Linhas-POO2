@@ -32,9 +32,48 @@ O objetivo do sistema `Entre Linhas` é ajudar costureiras que trabalham na moda
 
 Este documento se destina aos arquitetos de software, engenheiros de software, testadores, clientes, costureiras de qualquer faixa etária e, qualquer tipo de serviço (que envolva a costura).
 
-***1.3. Descrição dos usuários***
+### 1.3. Descrição dos Usuários
 
-*<Descrever quais os usuários finais do sistema (quem vai utilizar o sistema). Neste espaço vocês vão traçar um perfil de usuário, bem como as personas e análide de tarefas>*
+O sistema **Entre Linhas** é utilizado por três perfis principais de usuários finais: **faccionistas**, **facções** e **empresas**. Cada um desempenha um papel específico dentro da plataforma e possui necessidades distintas, que foram consideradas na definição dos requisitos e funcionalidades.
+
+---
+
+#### 1. Faccionistas
+
+**Perfil:**  
+Costureiras autônomas, geralmente com experiência prática, mas com pouca familiaridade com ferramentas digitais complexas. Em sua maioria, utilizam o celular como principal meio de comunicação e trabalho.
+
+**Persona:**  
+*Maria*, 42 anos, costureira há mais de 15 anos, participa de pequenos grupos informais, mas quer ter mais estabilidade e facilidade para encontrar serviços. Usa o WhatsApp com frequência e tem dificuldade para organizar suas oportunidades de trabalho.
+
+**Análise de tarefas:**  
+A faccionista busca facções ativas para se integrar e receber demandas. Ela precisa visualizar oportunidades de forma clara, saber os detalhes do serviço (tipo de peça, prazo, valor) e se candidatar com facilidade. Além disso, espera acompanhar o andamento do trabalho e se comunicar com sua facção dentro do próprio app.
+
+---
+
+#### 2. Facção
+
+**Perfil:**  
+Grupos liderados por uma ou mais pessoas que organizam equipes de faccionistas para atender demandas de empresas. Geralmente são experientes na produção em escala, mas enfrentam dificuldades para recrutar novas costureiras e negociar com empresas.
+
+**Persona:**  
+*Joana*, 38 anos, lidera uma facção há 5 anos. Já trabalhou com diversas empresas, mas sente dificuldade em reunir costureiras rapidamente quando surge uma nova demanda. Perde tempo buscando contatos e organizando o trabalho manualmente.
+
+**Análise de tarefas:**  
+A facção precisa recrutar faccionistas para sua equipe, responder a propostas de empresas, negociar condições e gerenciar os serviços em andamento. Espera encontrar ferramentas para facilitar o controle da produção e a comunicação com todos os envolvidos.
+
+---
+
+#### 3. Empresa
+
+**Perfil:**  
+Confecções e negócios do setor de moda que terceirizam serviços de costura por meio de facções. Buscam agilidade, qualidade e confiança nas entregas. Preferem soluções centralizadas que reduzam a dependência de contatos informais.
+
+**Persona:**  
+*Fernanda*, 34 anos, gerente de produção em uma marca de roupas femininas. Já perdeu prazos por não conseguir fechar com facções a tempo. Quer um sistema confiável para encontrar parceiros rapidamente e acompanhar os pedidos de forma transparente.
+
+**Análise de tarefas:**  
+A empresa deseja buscar e selecionar facções com base em critérios como tipo de serviço, localização e avaliações. Também precisa negociar pedidos, acompanhar o progresso da produção e manter um histórico de serviços prestados.
 
 ***Personas:***
 
@@ -49,13 +88,29 @@ As pessoas normalmente trabalham via WhatsApp, sem a praticidade e facilidade de
 
 Buscam com simplicidade a sua especificação de serviço ou mesmo alguém para prestar esse serviço. Os artefatos envolvidos é: o app por si só e todas suas funcionalidades. Para o uso do mesmo é necessário somente de um básico conhecimento no uso do telefone celular
 
-***Cenário: Antes***
+### Cenário: Antes
 
-*<Preencher com o cenário idealizado antes da aplicação do seu sistema.>*
+#### Faccionista  
+Maria começa o dia cedo, como sempre. Liga a máquina, ajeita os tecidos, mas sente um peso no peito: mais um dia sem saber se vai ter serviço. Ela abre os grupos de WhatsApp, procura por alguma facção que precise de mais uma costureira, mas tudo é confuso e incerto. Às vezes até vê uma oportunidade, mas não tem como saber se ainda está disponível, nem quem está organizando. O sentimento é de invisibilidade — ela quer trabalhar, mas ninguém parece enxergar isso.
 
-***Cenário: Depois***
+#### Facção  
+Do outro lado da cidade, Joana lidera uma pequena facção. Ela tenta fechar um serviço com uma empresa conhecida, mas esbarra em um problema constante: não consegue encontrar costureiras disponíveis com rapidez. Vai atrás de contatos antigos, manda mensagens em grupos diferentes, espera respostas que às vezes nem chegam. Ela sabe que a demanda existe, mas montar a equipe a tempo vira uma corrida contra o relógio, cheia de incertezas.
 
-*<Preencher com o cenário idealizado depois da aplicação do seu sistema.>*
+#### Empresa  
+Fernanda, responsável por uma confecção, acorda já preocupada. Precisa de uma nova facção para produzir a próxima coleção, mas não sabe por onde começar. Volta aos grupos de WhatsApp, revira contatos salvos e tenta lembrar o nome daquela facção que fez um bom trabalho meses atrás. Mas nada é prático. Tudo depende de indicações, mensagens demoradas e tentativas frustradas. Ela sente que perde tempo demais tentando encontrar alguém confiável.
+
+---
+
+### Cenário: Depois
+
+#### Faccionista  
+Maria acorda com o celular vibrando: uma nova facção está recrutando costureiras para um projeto que começa ainda essa semana. Ela abre o app *Entre Linhas*, vê os detalhes, gosta do que lê e envia sua solicitação com um clique. Pouco tempo depois, é aceita. A líder da facção envia uma mensagem direta pelo app e explica como será a divisão das peças. Maria sente um alívio gostoso — agora ela não precisa correr atrás de trabalho, o trabalho encontra ela.
+
+#### Facção  
+Joana abre o *Entre Linhas* com o café ainda na mão. Uma empresa acaba de publicar um novo pedido de produção, e ela vê que o perfil da sua facção se encaixa perfeitamente. Responde de forma rápida, envia seu portfólio e recebe retorno da empresa em minutos. Em seguida, acessa a aba de faccionistas e recruta três novas costureiras para completar a equipe. Em poucas horas, tudo está organizado. Ela sente que, finalmente, tem controle do processo.
+
+#### Empresa  
+Fernanda acessa o app logo cedo e digita o que precisa: uma facção com experiência em moda feminina, entrega rápida e boa avaliação. Em segundos, aparecem várias opções. Ela escolhe uma, conversa diretamente com a responsável e fecha o serviço. Tudo documentado, com prazos e valores definidos desde o início. Pela primeira vez, sente que o processo foi leve — sem perda de tempo, sem improvisos, só parceria e profissionalismo.
 
 ## 2. Documentos gerais no repositório
 

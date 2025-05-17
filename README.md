@@ -17,7 +17,6 @@ Luan Henrique de Almeida dos Santos | [luanalmeida7](https://github.com/luanalme
 ----------------------------------------------------------------------------
 
 
-
 ***1.2.  Nome do Sistema***
 
 #### $Entre Linhas$
@@ -32,7 +31,7 @@ O objetivo do sistema `Entre Linhas` é ajudar costureiras que trabalham na moda
 
 Este documento se destina aos arquitetos de software, engenheiros de software, testadores, clientes, costureiras de qualquer faixa etária e, qualquer tipo de serviço (que envolva a costura).
 
-### 1.3. Descrição dos Usuários
+***1.3. Descrição dos Usuários***
 
 O sistema **Entre Linhas** é utilizado por três perfis principais de usuários finais: **faccionistas**, **facções** e **empresas**. Cada um desempenha um papel específico dentro da plataforma e possui necessidades distintas, que foram consideradas na definição dos requisitos e funcionalidades.
 
@@ -88,7 +87,7 @@ As pessoas normalmente trabalham via WhatsApp, sem a praticidade e facilidade de
 
 Buscam com simplicidade a sua especificação de serviço ou mesmo alguém para prestar esse serviço. Os artefatos envolvidos é: o app por si só e todas suas funcionalidades. Para o uso do mesmo é necessário somente de um básico conhecimento no uso do telefone celular
 
-### Cenário: Antes
+***Cenário: Antes***
 
 #### Faccionista  
 Maria começa o dia cedo, como sempre. Liga a máquina, ajeita os tecidos, mas sente um peso no peito: mais um dia sem saber se vai ter serviço. Ela abre os grupos de WhatsApp, procura por alguma facção que precise de mais uma costureira, mas tudo é confuso e incerto. Às vezes até vê uma oportunidade, mas não tem como saber se ainda está disponível, nem quem está organizando. O sentimento é de invisibilidade — ela quer trabalhar, mas ninguém parece enxergar isso.
@@ -101,7 +100,7 @@ Fernanda, responsável por uma confecção, acorda já preocupada. Precisa de um
 
 ---
 
-### Cenário: Depois
+***Cenário: Depois***
 
 #### Faccionista  
 Maria acorda com o celular vibrando: uma nova facção está recrutando costureiras para um projeto que começa ainda essa semana. Ela abre o app *Entre Linhas*, vê os detalhes, gosta do que lê e envia sua solicitação com um clique. Pouco tempo depois, é aceita. A líder da facção envia uma mensagem direta pelo app e explica como será a divisão das peças. Maria sente um alívio gostoso — agora ela não precisa correr atrás de trabalho, o trabalho encontra ela.
@@ -114,9 +113,7 @@ Fernanda acessa o app logo cedo e digita o que precisa: uma facção com experi�
 
 ## 2. Documentos gerais no repositório
 
-***2.1. Requisitos Funcionais***
-
-## ⚙️ Requisitos Funcionais
+***2.1. ⚙️ Requisitos Funcionais***
 
 | Identificador | Descrição | Dependência |
 |---------------|-----------|-------------|
@@ -136,10 +133,9 @@ Fernanda acessa o app logo cedo e digita o que precisa: uma facção com experi�
 | **RF14** | **Notificar Facções/Faccionistas** – O sistema deve notificar uma facção e faccionista sempre que houver novas solicitações de serviço, mensagens recebidas ou avaliações feitas. Além disso, deve alertar sobre a proximidade de prazos e enviar notificações sempre que houver feedbacks sobre o serviço prestado. | RF02–RF04, RF07, RF10–RF12 |
 | **RF15** | **Prazos e Entregas** – O sistema deve permitir o registro das datas de entrega e a atualização do status do serviço sempre que a facção declarar a entrega parcial ou total. | RF02, RF04, RF07 |
 
+---
 
-***2.2. Requisitos Não Funcionais***
-
-## 🧾 Requisitos Não Funcionais
+***2.2. 🧾 Requisitos Não Funcionais***
 
 | Identificador | Descrição | Dependência |
 |---------------|-----------|-------------|

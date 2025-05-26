@@ -163,7 +163,8 @@ Fernanda acessa o app logo cedo e digita o que precisa: uma facção com experi�
 
 ***2.4. Entrevista***
 
-***Entrevista transcrita:*** [Transcrição]()
+***Entrevista transcrita:*** [TranscricaoEntrevista.pdf](https://github.com/user-attachments/files/20446707/TranscricaoEntrevista.pdf)
+
 
 ***Entrevista vídeo:*** [Vídeo](https://drive.google.com/file/d/1tO4Hgw7EJtW-JnMKMMNHgONT8ySa3wVI/view?usp=drive_link)
 

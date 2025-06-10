@@ -178,7 +178,7 @@ Fernanda acessa o app logo cedo e digita o que precisa: uma facção com experi�
 
 ***2.7. Diagramas de Atividades***
 
-*<Imagem, arquivo (PDF), link com Diagrama de Atividades.>*
+[Diagrama_de_Atividade](https://github.com/user-attachments/assets/28ccf25b-0865-45e8-814b-b0475db1bfaa)
 
 ***2.8. Matrizes de Rastreabilidade***
 

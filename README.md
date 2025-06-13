@@ -174,7 +174,10 @@ Fernanda acessa o app logo cedo e digita o que precisa: uma facção com experi�
 
 ***2.6. Diagramas de Caso de Uso e Especificações***
 
-*<Imagem, arquivo (PDF), link com Diagrama de Caso de Uso.>*
+***Diagramas de Casos de Uso:*** [Caso de Uso - Entre Linhas.pdf](https://github.com/user-attachments/files/20730097/Caso.de.Uso.-.Entre.Linhas.pdf)
+
+***Descrição dos Diagramas de Casos de Uso:*** [Descrição Caso de Uso - Entre Linhas.pdf](https://github.com/user-attachments/files/20730106/Descricao.Caso.de.Uso.-.Entre.Linhas.pdf)
+
 
 ***2.7. Diagramas de Atividades***
 

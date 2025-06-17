@@ -159,7 +159,7 @@ Fernanda acessa o app logo cedo e digita o que precisa: uma facção com experi�
 
 ***2.3. Perguntas***
 
-[Perguntas.pdf](https://github.com/user-attachments/files/20257828/Perguntas.pdf)
+***Perguntas:*** [Perguntas.pdf](https://github.com/user-attachments/files/20257828/Perguntas.pdf)
 
 ***2.4. Entrevista***
 
@@ -170,7 +170,7 @@ Fernanda acessa o app logo cedo e digita o que precisa: uma facção com experi�
 
 ***2.5. Histórias do Usuário***
 
-[Historias_de_Usuario.pdf](https://github.com/user-attachments/files/20767059/Historias_de_Usuario.pdf)
+***Histórias do Usuário:*** [Historias_de_Usuario.pdf](https://github.com/user-attachments/files/20767059/Historias_de_Usuario.pdf)
 
 ***2.6. Diagramas de Caso de Uso e Especificações***
 
@@ -181,18 +181,8 @@ Fernanda acessa o app logo cedo e digita o que precisa: uma facção com experi�
 
 ***2.7. Diagramas de Atividades***
 
-[Diagrama_de_Atividade](https://github.com/user-attachments/assets/28ccf25b-0865-45e8-814b-b0475db1bfaa)
-
-***2.8. Matrizes de Rastreabilidade***
-
-*<Imagem, arquivo (PDF), link com Matriz de Rastreabilidade.>*
+***Diagramas de Atividades:*** [Diagrama_de_Atividade](https://github.com/user-attachments/assets/28ccf25b-0865-45e8-814b-b0475db1bfaa)
 
 ***2.9. Protótipos***
 
-*<Imagem, arquivo (PDF), link com Protótipo.>*
-
-## Referências
-
-*<Esta seção é destinada à descrição das referências utilizadas pelo documento, como por exemplo, URLs e livros. Ver exemplo a seguir:>*
-
-[1] “Glossário da _USina_”, <_id_doc glossário_>, Versão <_versão_>. Localização: <_localização_>.
+***Protótipo:*** [Prototipo.pdf](https://github.com/user-attachments/files/20767284/Prototipo.pdf)

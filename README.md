@@ -170,7 +170,7 @@ Fernanda acessa o app logo cedo e digita o que precisa: uma facção com experi�
 
 ***2.5. Histórias do Usuário***
 
-*<Imagem, arquivo (PDF), link com as Histórias de Usuário.>*
+[Historias_de_Usuario.pdf](https://github.com/user-attachments/files/20767059/Historias_de_Usuario.pdf)
 
 ***2.6. Diagramas de Caso de Uso e Especificações***
 

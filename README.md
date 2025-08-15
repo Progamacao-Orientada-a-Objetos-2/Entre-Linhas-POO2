@@ -1,9 +1,7 @@
 
 # Projeto Disciplina: Requisitos de Software
 
-Olá! Este repositório faz parte do projeto da disciplina de Requisitos de Software da UTFPR - Campus Cornélio Procópio. 
-
-***Link ->*** [Padlet](https://padlet.com/joaoabreu19/projeto-requisitos-24nxemxvq4j1auom)
+Olá! Este repositório faz parte do projeto da disciplina de Progamação Orientada a Objetos 2- Campus Cornélio Procópio.
 
 ## 1. Introdução
 
@@ -12,8 +10,6 @@ NOME                                |Github
 João Lucas Silva de Souza           | [JoaoLucas-Silva](https://github.com/JoaoLucas-Silva)
 João Vitor Oliveira Abreu           | [jvoabreu](https://github.com/jvoabreu)
 José Wynder Alves Hernandes         | [JoseWynder](https://github.com/JoseWynder)
-Jean Alves Rocha                    | [JeanAlvesR](https://github.com/JeanAlvesR)
-Luan Henrique de Almeida dos Santos | [luanalmeida7](https://github.com/luanalmeida7)
 ----------------------------------------------------------------------------
 
 

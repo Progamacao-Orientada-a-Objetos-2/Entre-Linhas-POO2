@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: Entre Linhas
+  profiles:
+    active: dev

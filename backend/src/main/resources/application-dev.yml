@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:entrelinhas
+    username: sa
+    hikari:
+      data-source-properties:
+        DB_CLOSE_DELAY: -1
+        DB_CLOSE_ON_EXIT: FALSE
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: true
+      path: /h2-console

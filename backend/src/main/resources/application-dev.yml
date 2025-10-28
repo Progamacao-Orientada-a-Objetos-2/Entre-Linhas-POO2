@@ -1,18 +1,15 @@
 spring:
   datasource:
-    url: jdbc:h2:mem:entrelinhas
-    username: sa
-    hikari:
-      data-source-properties:
-        DB_CLOSE_DELAY: -1
-        DB_CLOSE_ON_EXIT: FALSE
+    url: jdbc:postgresql://${DB_HOST}:${DB_PORT}/${DB_NAME}
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
+    driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
       ddl-auto: update
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.H2Dialect
-  h2:
-    console:
-      enabled: true
-      path: /h2-console
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: true
+    open-in-view: false

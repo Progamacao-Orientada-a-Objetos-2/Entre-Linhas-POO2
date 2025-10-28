@@ -1,5 +1,5 @@
 spring:
   application:
-    name: Entre Linhas
+    name: entre-linhas
   profiles:
-    active: dev
+    active: ${SPRING_PROFILES_ACTIVE}

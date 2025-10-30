@@ -3,3 +3,6 @@ spring:
     name: entre-linhas
   profiles:
     active: ${SPRING_PROFILES_ACTIVE}
+  h2:
+    console:
+      enabled: false
